@@ -1,0 +1,273 @@
+@font-face {
+  font-family: 'MailSansRomanRegular';
+  src: url(/fonts/MailSansRoman-Regular.ttf); }
+
+@font-face {
+  font-family: 'MailSansRomanMedium';
+  src: url(/fonts/MailSansRoman-Medium.ttf); }
+
+@font-face {
+  font-family: 'MailSansRomanBold';
+  src: url(/fonts/MailSansRoman-Bold.ttf); }
+
+body {
+  font-family: 'MailSansRomanRegular';
+  margin: 0;
+  padding: 0;
+  position: relative; }
+  body .fon {
+    background: #54B2FF;
+    filter: blur(100px);
+    position: absolute;
+    width: 760px;
+    height: 760px;
+    z-index: -1;
+    left: -127px;
+    top: 145px; }
+  body .fon-blue {
+    position: absolute;
+    bottom: 0;
+    background: #54B2FF;
+    filter: blur(90px);
+    width: 635px;
+    height: 540px;
+    z-index: -2;
+    right: 0%; }
+  body .fon-red {
+    position: absolute;
+    background: #FF5492;
+    filter: blur(150px);
+    height: 480px;
+    width: 480px;
+    bottom: 0;
+    z-index: -1;
+    right: 21%; }
+
+.statistics .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 200px; }
+  .statistics .container .left {
+    max-width: 376px; }
+    .statistics .container .left p {
+      font-family: 'MailSansRomanMedium';
+      font-size: 15px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.6);
+      margin: 0;
+      margin-bottom: 20px; }
+    .statistics .container .left .text {
+      font-family: 'MailSansRomanMedium';
+      font-size: 40px;
+      line-height: 50px;
+      color: #2C2D2E;
+      margin-bottom: 40px; }
+    .statistics .container .left .btn {
+      display: flex;
+      align-items: center; }
+      .statistics .container .left .btn img {
+        margin-right: 16px; }
+        .statistics .container .left .btn img:hover {
+          cursor: pointer; }
+      .statistics .container .left .btn span {
+        font-family: 'MailSansRomanRegular';
+        font-size: 20px;
+        color: #2C2D2E; }
+
+.statistics .gallery {
+  max-width: 680px;
+  margin-top: 14px; }
+  .statistics .gallery .card .number {
+    display: flex;
+    font-size: 90px;
+    color: #2C2D2E;
+    margin: 0; }
+    .statistics .gallery .card .number span {
+      font-family: 'MailSansRomanBold';
+      font-size: 50px;
+      margin-top: 11px; }
+  .statistics .gallery .card .inf {
+    margin: 0;
+    max-width: 200px;
+    font-size: 18px;
+    line-height: 26px; }
+  .statistics .gallery .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    margin: 40px 0 0; }
+    .statistics .gallery .slick-dots li {
+      list-style: none;
+      margin: 0 8px; }
+      .statistics .gallery .slick-dots li.slick-active button {
+        width: 10px;
+        height: 10px;
+        background: #2C2D2E;
+        opacity: 1; }
+      .statistics .gallery .slick-dots li button {
+        font-size: 0;
+        height: 8px;
+        width: 8px;
+        background-color: #2C2D2E;
+        border-radius: 50%;
+        border-width: 0;
+        padding: 0;
+        opacity: 0.5; }
+        .statistics .gallery .slick-dots li button:hover {
+          cursor: pointer; }
+
+.instructions {
+  margin-top: -40px;
+  margin-bottom: 160px; }
+  .instructions .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center; }
+    .instructions .container .title {
+      margin: 0;
+      font-family: 'MailSansRomanMedium';
+      font-size: 15px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 16px; }
+    .instructions .container h2 {
+      max-width: 700px;
+      margin: 0 auto;
+      font-family: 'MailSansRomanMedium';
+      font-size: 75px;
+      line-height: 80px;
+      color: #2C2D2E;
+      margin-bottom: 28px; }
+    .instructions .container .text {
+      margin: 0 auto;
+      max-width: 579px;
+      font-size: 18px;
+      line-height: 26px;
+      color: #2C2D2E;
+      text-align: center;
+      margin-bottom: 80px; }
+      .instructions .container .text a {
+        text-decoration: none;
+        color: #0000FF; }
+    .instructions .container .questions {
+      margin: 0 auto; }
+      .instructions .container .questions .question {
+        width: 700px;
+        background: #FFFFFF;
+        box-shadow: 0 100px 80px rgba(153, 164, 184, 0.0393604), 0 41.7776px 33.4221px rgba(153, 164, 184, 0.056545), 0 22.3363px 17.869px rgba(153, 164, 184, 0.07), 0 12.5216px 10.0172px rgba(153, 164, 184, 0.083455), 0 6.6501px 5.32008px rgba(153, 164, 184, 0.10064), 0 2.76726px 2.21381px rgba(153, 164, 184, 0.14);
+        border-radius: 20px;
+        cursor: pointer;
+        padding: 28px 36px;
+        border: none;
+        text-align: start;
+        outline: none;
+        transition: 0.5s;
+        height: 86px;
+        font-family: 'MailSansRomanMedium';
+        font-size: 22px;
+        color: #2C2D2E;
+        margin: 0 auto 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .instructions .container .questions .question:after {
+          content: url("/img/arrow-down.svg"); }
+      .instructions .container .questions .active {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        padding-bottom: 24px; }
+        .instructions .container .questions .active:after {
+          content: url("/img/arrow-up.svg"); }
+      .instructions .container .questions .answer {
+        font-size: 18px;
+        line-height: 26px;
+        color: #2C2D2E;
+        background-color: #fff;
+        max-height: 0;
+        margin: -20px auto 20px;
+        box-sizing: border-box;
+        width: 700px;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px; }
+        .instructions .container .questions .answer div {
+          padding: 0 76px 28px 36px;
+          text-align: start;
+          margin: 0;
+          margin-top: 10px; }
+          .instructions .container .questions .answer div p {
+            margin: 0;
+            margin-top: 24px; }
+    .instructions .container button {
+      margin-top: 40px;
+      align-items: center;
+      padding: 16px 32px;
+      width: 289px;
+      background: #121212;
+      box-shadow: 0 41.7776px 33.4221px rgba(0, 0, 0, 0.246375), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.305), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.363625), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.438501), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.61);
+      border-radius: 14px;
+      box-sizing: border-box;
+      border: 0;
+      font-family: 'MailSansRomanMedium';
+      font-size: 20px;
+      color: #FFFFFF; }
+      .instructions .container button:hover {
+        cursor: pointer; }
+
+.share {
+  padding-bottom: 80px; }
+  .share .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center; }
+    .share .container p {
+      margin: 0;
+      font-size: 15px;
+      font-family: 'MailSansRomanMedium';
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 16px; }
+    .share .container h2 {
+      max-width: 980px;
+      font-family: 'MailSansRomanMedium';
+      font-size: 75px;
+      line-height: 80px;
+      color: #2C2D2E;
+      margin: 0 auto 28px; }
+    .share .container .text {
+      max-width: 692px;
+      font-size: 18px;
+      line-height: 26px;
+      color: #2C2D2E;
+      margin: 0 auto 63px; }
+    .share .container img:hover {
+      cursor: pointer; }
+    .share .container .icons {
+      max-width: 380px;
+      display: flex;
+      justify-content: space-between;
+      margin: 80px auto 0; }
+      .share .container .icons .icon {
+        box-sizing: border-box;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        background: #000000;
+        mix-blend-mode: normal;
+        border: 1px solid #000000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .share .container .icons .icon:hover {
+          cursor: pointer; }
