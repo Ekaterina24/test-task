@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'MailSansRomanRegular';
-  src: url('../fonts/MailSansRoman-Regular.ttf'); }
+  src: url("../fonts/MailSansRoman-Regular.ttf"); }
 
 @font-face {
   font-family: 'MailSansRomanMedium';
-  src: url('../fonts/MailSansRoman-Medium.ttf'); }
+  src: url("../fonts/MailSansRoman-Medium.ttf"); }
 
 @font-face {
   font-family: 'MailSansRomanBold';
-  src: url('../fonts/MailSansRoman-Bold.ttf'); }
+  src: url("../fonts/MailSansRoman-Bold.ttf"); }
 
 body {
   font-family: 'MailSansRomanRegular';
@@ -178,14 +178,14 @@ body {
         align-items: center;
         justify-content: space-between; }
         .instructions .container .questions .question:after {
-          content: url("/img/arrow-down.svg"); }
+          content: url("../img/arrow-down.svg"); }
       .instructions .container .questions .active {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
         margin-bottom: 0;
         padding-bottom: 24px; }
         .instructions .container .questions .active:after {
-          content: url("/img/arrow-up.svg"); }
+          content: url("../img/arrow-up.svg"); }
       .instructions .container .questions .answer {
         font-size: 18px;
         line-height: 26px;
