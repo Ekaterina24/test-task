@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'MailSansRomanRegular';
-  src: url(/fonts/MailSansRoman-Regular.woff); }
+  src: url('../fonts/MailSansRoman-Regular.ttf'); }
 
 @font-face {
   font-family: 'MailSansRomanMedium';
-  src: url(/fonts/MailSansRoman-Medium.ttf); }
+  src: url('../fonts/MailSansRoman-Medium.ttf'); }
 
 @font-face {
   font-family: 'MailSansRomanBold';
-  src: url(/fonts/MailSansRoman-Bold.ttf); }
+  src: url('../fonts/MailSansRoman-Bold.ttf'); }
 
 body {
   font-family: 'MailSansRomanRegular';
